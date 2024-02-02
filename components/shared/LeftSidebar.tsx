@@ -7,7 +7,6 @@ import Image from "next/image";
 import Link from "next/link";
 import { SignedOut } from "@clerk/nextjs";
 import { Button } from "../ui/button";
-import { SheetClose } from "../ui/sheet";
 
 const LeftSidebar = () => {
   const pathname = usePathname();
